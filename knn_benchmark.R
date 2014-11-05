@@ -1,4 +1,4 @@
-# makes the KNN submission
+# This code is taken from Kaggle
 
 library(FNN)
 
