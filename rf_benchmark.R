@@ -1,4 +1,4 @@
-# makes the random forest submission
+# This code is taken from kaggle
 
 library(randomForest)
 
