@@ -1,0 +1,16 @@
+library(ggplot2)
+library(gridExtra)
+
+a = runif(10,1,5)
+b = runif(10,3,10)
+k = as.data.frame(cbind(a,b))
+
+train_fit <- ggplot(k, aes(c(1:length(k$a)),a)) +
+  geom_line(color='red') +
+  geom_line(aes(c(1:length(k$b)),b), color="green")
+
+test_fit <- ggplot(k, aes(c(1:length(k$a)),a)) +
+  geom_line(color='red') +
+  geom_line(aes(c(1:length(k$b)),b), color="green")
+
+grid.arrange(train_fit,test_fit ,ncol=1, nrow =2)
