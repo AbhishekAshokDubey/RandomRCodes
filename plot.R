@@ -14,3 +14,8 @@ test_fit <- ggplot(k, aes(c(1:length(k$a)),a)) +
   geom_line(aes(c(1:length(k$b)),b), color="green")
 
 grid.arrange(train_fit,test_fit ,ncol=1, nrow =2)
+
+
+
+# check
+# http://www.sthda.com/english/wiki/ggplot2-easy-way-to-mix-multiple-graphs-on-the-same-page-r-software-and-data-visualization
