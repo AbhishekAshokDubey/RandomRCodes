@@ -1,7 +1,8 @@
 library(ggplot2)
 library(gridExtra)
 
-jpeg('rplot.jpg')
+png(filename="your/file/location/name.png")
+# jpeg('rplot.jpg')
 
 a = runif(10,1,5)
 b = runif(10,3,10)
