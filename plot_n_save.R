@@ -22,3 +22,4 @@ dev.off()
 
 # check
 # http://www.sthda.com/english/wiki/ggplot2-easy-way-to-mix-multiple-graphs-on-the-same-page-r-software-and-data-visualization
+# http://www.r-bloggers.com/high-resolution-figures-in-r/
